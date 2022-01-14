@@ -165,3 +165,6 @@ main.main-content .content-text-area p {
     font-size: 12px;
     text-transform: uppercase;
 }
+.mr-0{
+    margin-right: 0px !important;
+}
