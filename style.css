@@ -14,6 +14,17 @@ ul{
 a{
     text-decoration: none;
 }
+a.read-more{
+    background-color: green;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 20px;
+    display: inline-block;
+    border-radius: 50px;
+}
+.clearfix{
+    overflow: hidden;
+}
 .container{
     width: 1000px;
     margin: 0 auto;
@@ -21,10 +32,65 @@ a{
 main.main-content{
     min-height: 400px;
 }
+main.main-content .banner-area {
+    background: linear-gradient(rgba(20, 20, 22, 0.8),rgba(20, 20, 22, 0.8)),url(/images/2.jpg) no-repeat;
+    background-size: cover;
+    background-position: center top;
+    min-height: 400px;
+    margin-bottom: 15px;
+}
+main.main-content .banner-area .banner-info {
+    text-align: center;
+    color: #fff;
+    padding-top: 124px;
+}
+main.main-content .banner-area .banner-info h2 {
+    font-size: 45px;
+    padding-bottom: 20px;
+    text-transform: capitalize;
+}
+main.main-content .banner-area .banner-info p {
+    font-size: 14px;
+    line-height: 25px;
+}
+main.main-content .banner-area .banner-info a.read-more {
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+main.main-content .banner-area .banner-info a:hover, .content-text-area a:hover {
+    background: rgb(5, 100, 5);
+    transition: 0.4s all;
+}
+main.main-content .content-image-area{
+    float: left;
+    width: 49%;
+}
+main.main-content .content-image-area img {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ddd;
+}
+main.main-content .content-text-area {
+    float: right;
+    width: 49%;
+    text-align: center;
+    margin-top: 80px;
+}
+main.main-content .content-text-area h2 {
+    padding-bottom: 15px;
+    font-size: 58px;
+    color: green;
+}
+main.main-content .content-text-area p {
+    padding-bottom: 15px;
+    line-height: 25px;
+    font-size: 14px;
+}
 .header-area .head-title, .footer-area{
     background: green;
-    color: wheat;
-    padding: 5px 0px;
+    color: #fff;
+    padding: 20px 0px;
     text-align: center;
 }
 .main-menu{
@@ -40,9 +106,14 @@ main.main-content{
     display: inline-block;
     margin-right: 10px;
 }
+.main-menu ul li:last-child{
+    margin-right: 0px;
+}
 .main-menu ul li a{
     color: #000;
     font-size: 16px;
     font-weight: 500;
 }
-.main-menu ul li a:hover{}
+.main-menu ul li a:hover{
+    color: rgb(5, 100, 5);
+}
