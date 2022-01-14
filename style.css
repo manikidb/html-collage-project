@@ -58,7 +58,7 @@ main.main-content .banner-area .banner-info a.read-more {
     text-transform: uppercase;
     margin-top: 30px;
 }
-main.main-content .banner-area .banner-info a:hover, .content-text-area a:hover {
+main.main-content .banner-area .banner-info a:hover, .content-text-area a:hover, .course a:hover {
     background: rgb(5, 100, 5);
     transition: 0.4s all;
 }
@@ -96,10 +96,10 @@ main.main-content .content-text-area p {
 .main-menu{
     padding: 15px 0px;
 }
-.main-menu ul{
+.main-menu ul {
     text-align: center;
-    border-top: 1px solid #444;
-    border-bottom: 1px solid #444;
+    border-top: 1px solid green;
+    border-bottom: 1px solid green;
     padding: 10px 0px;
 }
 .main-menu ul li{
@@ -109,11 +109,59 @@ main.main-content .content-text-area p {
 .main-menu ul li:last-child{
     margin-right: 0px;
 }
-.main-menu ul li a{
-    color: #000;
+.main-menu ul li a {
+    color: #444;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 .main-menu ul li a:hover{
     color: rgb(5, 100, 5);
+}
+
+/* Course area style  */
+.course-area{
+    padding: 50px 0px;
+}
+.course-area h2 {
+    text-align: center;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: green;
+    border-bottom: 10px double green;
+    padding-bottom: 10px;
+}
+.course-area .course-wrapper{
+    padding: 30px 0px;
+}
+.course-area .course-wrapper .course {
+    width: 22.8%;
+    float: left;
+    border: 1px solid green;
+    padding: 20px 5px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 5px;
+}
+.course-area .course-wrapper .course:hover{
+    box-shadow: 0px 4px 10px 0px #999;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.course-area .course-wrapper .course h4 {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: green;
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+.course-area .course-wrapper .course p{
+    font-size: 14px;
+    line-height: 21px;
+}
+.course-area .course-wrapper .course a.read-more {
+    padding: 8px 16px;
+    font-size: 12px;
+    text-transform: uppercase;
 }
