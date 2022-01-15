@@ -33,7 +33,7 @@ main.main-content{
     min-height: 400px;
 }
 main.main-content .banner-area {
-    background: linear-gradient(rgba(20, 20, 22, 0.8),rgba(20, 20, 22, 0.8)),url(/images/2.jpg) no-repeat;
+    background: linear-gradient(rgba(20, 20, 22, 0.8),rgba(20, 20, 22, 0.8)),url(images/2.jpg) no-repeat;
     background-size: cover;
     background-position: center top;
     min-height: 400px;
